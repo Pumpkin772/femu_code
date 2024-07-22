@@ -1,0 +1,10 @@
+[global]
+rw=randwrite
+bs=1Mb
+size=5000Mb
+
+[write]
+filename=/dev/nvme0n1
+offset=100Mb
+offset_increment=10Mb
+

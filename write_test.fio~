@@ -1,0 +1,8 @@
+[global]
+rw=write             
+bs=1M                
+size=10000M            
+
+[write]
+filename=/dev/nvme0n1 
+
